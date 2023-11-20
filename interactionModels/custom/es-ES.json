@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "abrirGrafanaIntent",
+          "samples": [
+            "lanza grafana",
+            "ver grafana",
+            "quiero ver grafana"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ObtenerTemperaturaIntent",
+          "samples": [
+            "ver temperatura",
+            "temperatura",
+            "Dime la temperatura",
+            "Obtener temperatura"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ObtenerHumedadIntent",
+          "samples": [
+            "humedad",
+            "Dime humedad",
+            "ver humedad",
+            "Obtener humedad"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "artisca valor"
+    }
+  }
+}
